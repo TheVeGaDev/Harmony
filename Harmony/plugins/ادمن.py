@@ -1,10 +1,10 @@
-# حمد : @S_4_N باقر : @E_7_V ~ @Tepthon ~ @Repthon
+# حمد : @S_4_N باقر : @E_7_V ~ @Harmony ~ @Repthon
 from telethon.errors import BadRequestError
 from telethon.errors.rpcerrorlist import UserAdminInvalidError, UserIdInvalidError
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChatBannedRights
 
-from Tepthon import zedub
+from Harmony import zedub
 
 from ..core.managers import edit_or_reply
 from ..helpers.utils import _format
@@ -216,7 +216,7 @@ async def tban(event):  # sourcery no-metrics
     groups_only=True,
     require_admin=True,
 )
-async def T8ed_Tepthon(event):
+async def T8ed_Harmony(event):
     await event.delete()
     user, reason = await get_user_from_event(event)
     if not user:
