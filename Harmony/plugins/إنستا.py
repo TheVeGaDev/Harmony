@@ -1,7 +1,7 @@
 #الجوكر
 from datetime import datetime
 from telethon.errors.rpcerrorlist import YouBlockedUserError
-from Tepthon import zedub
+from Harmony import zedub
 
 # تعريف فئة أو اسم للبلاجن
 plugin_category = "Instagram"
@@ -52,7 +52,7 @@ async def kakashi(event):
     end = datetime.now()
     ms = (end - start).seconds
 
-    await cat.edit(f"⎉╎ تم التنزيــل ♥️ : @Tepthon ", parse_mode="html")
+    await cat.edit(f"⎉╎ تم التنزيــل ♥️ : @Harmony ", parse_mode="html")
 
     # حذف الرسائل المستخدمة في المحادثة
     await event.client.delete_messages(
