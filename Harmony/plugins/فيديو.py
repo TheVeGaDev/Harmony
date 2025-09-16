@@ -6,7 +6,7 @@ import yt_dlp
 import os
 from telethon import TelegramClient, events
 from yt_dlp import YoutubeDL
-from Tepthon import zedub
+from Harmony import zedub
 from ..Config import Config
 
 plugin_category = "البوت"
