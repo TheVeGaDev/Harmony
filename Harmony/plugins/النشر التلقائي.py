@@ -19,12 +19,12 @@ from telethon.errors.rpcerrorlist import UserNotParticipantError
 from telethon.tl.functions.messages import ExportChatInviteRequest
 from telethon.tl.functions.users import GetFullUserRequest
 
-from Tepthon import zedub
+from Harmony import zedub
 
 from ..Config import Config
 from ..core.managers import edit_delete, edit_or_reply
 from ..sql_helper.autopost_sql import add_post, get_all_post, is_post, remove_post
-from Tepthon.core.logger import logging
+from Harmony.core.logger import logging
 from ..sql_helper.globals import gvarstatus
 from . import BOTLOG, BOTLOG_CHATID
 from . import *
@@ -36,7 +36,7 @@ SPRS = gvarstatus("Z_SPRS") or "(نشر_تلقائي|نشر|تلقائي)"
 OFSPRS = gvarstatus("Z_OFSPRS") or "(ايقاف_النشر|ايقاف النشر|ستوب)"
 
 ZelzalNSH_cmd = (
-    "𓆩 [ اوامـر النشـر التلقـائي](t.me/Tepthon) 𓆪\n\n"
+    "𓆩 [ اوامـر النشـر التلقـائي](t.me/Harmony) 𓆪\n\n"
     "**- اضغـط ع الامـر للنسـخ** \n\n\n"
     "**⪼** `.تلقائي` \n"
     "**- الامـر + (معـرف/ايـدي/رابـط) القنـاة المـراد النشـر التلقـائي منهـا** \n"
