@@ -13,7 +13,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "zed"
 
 from telethon.tl.functions.users import GetFullUserRequest
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ZED - THON"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "𝗩𝗘𝗚𝗧𝗛𝗢𝗡"
 
 
 @zedub.zed_cmd(pattern=r"تهكير$")
