@@ -1,6 +1,6 @@
 import html
 
-from Tepthon import zedub
+from Harmony import zedub
 
 from ..core.managers import edit_or_reply
 from ..sql_helper import warns_sql as sql
