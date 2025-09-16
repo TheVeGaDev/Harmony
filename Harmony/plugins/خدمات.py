@@ -1,4 +1,4 @@
-# Tepthon 
+# Harmony 
 # ترتيب الملف @E_7_V
 
 import requests
@@ -17,7 +17,7 @@ from telethon.tl.functions.contacts import UnblockRequest as unblock
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 
 
-from Tepthon import zedub
+from Harmony import zedub
 from ..Config import Config
 from ..core.managers import edit_delete, edit_or_reply
 from ..helpers.utils import reply_id
@@ -124,7 +124,7 @@ async def _(event):
                 await borg.send_file(
                     event.chat_id,
                     zelzal,
-                    caption=f"**{zelzal.text}\nBy: @Tepthon**",
+                    caption=f"**{zelzal.text}\nBy: @VeGaOne**",
 
                 )
 
@@ -150,7 +150,7 @@ async def _(event):
                 await borg.send_file(
                     event.chat_id,
                     zelzal,
-                    caption=f"**{zelzal.text}\nBy: @Tepthon**",
+                    caption=f"**{zelzal.text}\nBy: @VeGaOne**",
 
                 )
             
@@ -214,7 +214,7 @@ async def zed(event):
 #@Jepthon
 #شكـرًا لـ مطور الجوكر .
 client = zedub
-async def Tepthon(username, bot_name, event):
+async def Harmony(username, bot_name, event):
     async with event.client.conversation('@BotFather') as conv:
         await conv.send_message('/newbot')
         await asyncio.sleep(2)
@@ -236,7 +236,7 @@ async def Tepthon(username, bot_name, event):
         "examples": "{tr}فاذر myusername mybotname",
     },
 )
-async def Tepthon(event):
+async def Harmony(event):
     input_str = event.pattern_match.group(1)
     if len(input_str.split()) != 2:
         await event.edit("الرجاء تقديم اسم المستخدم واسم البوت مفصولين بمسافة مثال: {tr}فاذر اسم المستخدم اسم البوت")
