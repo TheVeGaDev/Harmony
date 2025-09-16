@@ -5,7 +5,7 @@
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/Zed-Thon/ZelZal/blob/master/LICENSE/>.
 """ 
-Logo & Style for ZThon™ t.me/ZThon
+Logo & Style for VeGaOne™ t.me/VeGaOne
 Write file by Zelzal t.me/zzzzl1l
 ها خماط بعدك تخمط مني .. ماتستحي ؟
 متى راح تصير مطور وانت مقضيها خمط تعب وحقوق الناس
@@ -111,7 +111,7 @@ async def lg1(userevent):
     await bot.send_file(
         userevent.chat_id,
         file_name,
-        caption=f"**- تم صنـع لـوجـو انكـلش .. بنجـاح 🎆☑️\n- حقـوق :** {my_mention} .\n\n**- بواسطـة : @ZThon**",
+        caption=f"**- تم صنـع لـوجـو انكـلش .. بنجـاح 🎆☑️\n- حقـوق :** {my_mention} .\n\n**- بواسطـة : @VeGaOne**",
     )
     await event.delete()
     try:
@@ -186,7 +186,7 @@ async def lg1(userevent):
     await bot.send_file(
         userevent.chat_id,
         file_name,
-        caption=f"**- تم صنـع لـوجـو عـربـي .. بنجـاح 🎆☑️\n- حقـوق :** {my_mention} .\n\n**- بواسطـة : @ZThon**",
+        caption=f"**- تم صنـع لـوجـو عـربـي .. بنجـاح 🎆☑️\n- حقـوق :** {my_mention} .\n\n**- بواسطـة : @VeGaOne**",
     )
     await event.delete()
     try:
