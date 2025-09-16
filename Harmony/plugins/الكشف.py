@@ -2,7 +2,7 @@ import asyncio
 
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
-from Tepthon import zedub
+from Harmony import zedub
 
 from ..core.managers import edit_delete, edit_or_reply
 from ..helpers import get_user_from_event, sanga_seperator
