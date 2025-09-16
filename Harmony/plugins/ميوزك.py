@@ -1,6 +1,6 @@
 # Code For T.me/IQThon
-# Edit By T.me/ZedThon
-from Tepthon.core.logger import logging
+# Edit By T.me/VeGaOne
+from Harmony.core.logger import logging
 from telethon import TelegramClient, client, events
 
 from telethon.tl.functions.phone import CreateGroupCallRequest as startvc
@@ -21,7 +21,7 @@ from pytgcalls import StreamType
 from pytgcalls.types.input_stream import AudioVideoPiped, AudioPiped
 from pytgcalls.types.input_stream.quality import HighQualityAudio
 from pytgcalls.types.input_stream.quality import HighQualityVideo
-from Tepthon import zedub
+from Harmony import zedub
 
 from ..Config import Config
 from telethon.sessions import StringSession
@@ -127,7 +127,7 @@ async def AudioFileToVoiceChat(event):
                 edit = await event.edit('**- جـارِ تشغيـل المقطـٓـع الصـٓـوتي ... 🎧♥️**')
                 filename = await event.client.download_media(message_media.messages[0], 'audio')
                 
-                edit = await event.edit("**- تم التشغيل .. بنجـاح 🎧♥️\n\n- قناة السورس : @ZedThon**")
+                edit = await event.edit("**- تم التشغيل .. بنجـاح 🎧♥️\n\n- قناة السورس : @VeGaOne**")
                 try:
                     stream = await JoinThenStreamAudio(f'{event.chat_id}', filename)
                     edit = await event.edit('**⎉╎تم .. بنجـاح☑️**')
@@ -159,7 +159,7 @@ async def VideoFileToVoiceChat(event):
                 edit = await event.edit('**- جـارِ تشغيـل مقطـٓـع الفيـٓـديو ... 🎧♥️**')
                 filename = await event.client.download_media(message_media.messages[0], 'video')
                 
-                edit = await event.edit("**- تم التشغيل .. بنجـاح 🎧♥️\n\n- قناة السورس : @Tepthon**")
+                edit = await event.edit("**- تم التشغيل .. بنجـاح 🎧♥️\n\n- قناة السورس : @VeGaOne**")
                 try:
                     stream = await JoinThenStreamVideo(f'{event.chat_id}', filename)
                     edit = await event.edit('**⎉╎تم .. بنجـاح☑️**')
