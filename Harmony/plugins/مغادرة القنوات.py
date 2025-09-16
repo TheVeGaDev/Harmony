@@ -1,6 +1,6 @@
 import asyncio
 from telethon import TelegramClient, events
-from Tepthon import zedub
+from Harmony import zedub
 from telethon.tl.functions.channels import LeaveChannelRequest
 from ..Config import Config
 
