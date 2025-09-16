@@ -18,7 +18,7 @@ from user_agent import generate_user_agent
 
 
 
-from Tepthon import zedub
+from Harmony import zedub
 
 
 
@@ -208,7 +208,7 @@ def gen_user(choice):
 
 ZelzalChecler_cmd = (
 
-    "𓆩 [𝗦𝗼𝘂𝗿𝗰𝗲 𝗧𝗲𝗽𝘁𝗵𝗼𝗻 - أوامـر الصيد والتشيكـر](t.me/Tepthon) 𓆪\n\n"
+    "𓆩 [𝗦𝗼𝘂𝗿𝗰𝗲 𝗧𝗲𝗽𝘁𝗵𝗼𝗻 - أوامـر الصيد والتشيكـر](t.me/Harmony) 𓆪\n\n"
 
     "**✾╎قـائمـة أوامـر تشيكـر صيـد معـرفات تيليجـرام :** \n\n"
 
@@ -268,7 +268,7 @@ ZelzalChecler_cmd = (
 
 ZelzalType_cmd = (
 
-"𓆩 [𝗦𝗼𝘂𝗿𝗰𝗲 𝗧𝗲𝗽𝘁𝗵𝗼𝗻 - أنـواع اليـوزرات](t.me/Tepthon) 𓆪\n\n"
+"𓆩 [𝗦𝗼𝘂𝗿𝗰𝗲 𝗧𝗲𝗽𝘁𝗵𝗼𝗻 - أنـواع اليـوزرات](t.me/Harmony) 𓆪\n\n"
 
 "**✾╎قـائمـة أنـواع اليـوزرات التي يمكـن صيدهـا مـع الأمثـلة :** \n\n"
 
@@ -348,7 +348,7 @@ async def hunterusername(event):
 
                     title="⎉ صيـد تيبثـــون 𝗧𝗲𝗽𝘁𝗵𝗼𝗻 ⎉",
 
-                    about="This channel to hunt username by - @Tepthon ",
+                    about="This channel to hunt username by - @Harmony ",
 
                 )
 
@@ -396,13 +396,13 @@ async def hunterusername(event):
 
                     event.chat_id,
 
-                    f"- Done : @{username} ✅\n- By : @Tepthon \n- Hunting Log {trys[0]}",
+                    f"- Done : @{username} ✅\n- By : @Harmony \n- Hunting Log {trys[0]}",
 
                 )
 
                 await event.client.send_message(
 
-                    "@A_D_P", f"- Done : @{username} ✅\n- By : @Tepthon \n- Hunting Log {trys[0]}",
+                    "@A_D_P", f"- Done : @{username} ✅\n- By : @Harmony \n- Hunting Log {trys[0]}",
 
                 )
 
@@ -502,7 +502,7 @@ async def _(event):
 
                 title="⎉ تثبيت تيبثـــون 𝗧𝗲𝗽𝘁𝗵𝗼𝗻 ⎉",
 
-                about="تم تثبيت اليـوزر بواسطـة سـورس تيبثـــون - @Tepthon ",
+                about="تم تثبيت اليـوزر بواسطـة سـورس تيبثـــون - @Harmony ",
 
             )
 
@@ -554,7 +554,7 @@ async def _(event):
 
                     event.chat_id,
 
-                    f"- Done : @{username} \n- Save: ❲ Channel ❳\n- By : @Tepthon \n- Hunting Log {trys2[0]}",
+                    f"- Done : @{username} \n- Save: ❲ Channel ❳\n- By : @Harmony \n- Hunting Log {trys2[0]}",
 
                 )
 
@@ -562,7 +562,7 @@ async def _(event):
 
                     "@A_D_P",
 
-                    f"- Done : @{username} \n- Save: ❲ Channel ❳\n- By : @Tepthon \n- Hunting Log {trys2[0]}",
+                    f"- Done : @{username} \n- Save: ❲ Channel ❳\n- By : @Harmony \n- Hunting Log {trys2[0]}",
 
                 )
 
@@ -662,7 +662,7 @@ async def _(event): # Code Update by @zzzzl1l
 
                     event.chat_id,
 
-                    f"- Done : @{username} \n- Save: ❲ Account ❳\n- By : @Tepthon \n- Hunting Log {trys2[0]}",
+                    f"- Done : @{username} \n- Save: ❲ Account ❳\n- By : @Harmony \n- Hunting Log {trys2[0]}",
 
                 )
 
@@ -670,7 +670,7 @@ async def _(event): # Code Update by @zzzzl1l
 
                     "@A_D_P",
 
-                    f"- Done : @{username} \n- Save: ❲ Account ❳\n- By : @Tepthon \n- Hunting Log {trys2[0]}",
+                    f"- Done : @{username} \n- Save: ❲ Account ❳\n- By : @Harmony \n- Hunting Log {trys2[0]}",
 
                 )
 
