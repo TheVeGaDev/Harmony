@@ -1,6 +1,6 @@
 # ©source Zed - @ZlZZl77
-from Tepthon.core.logger import logging
-from Tepthon import zedub
+from Harmony.core.logger import logging
+from Harmony import zedub
 from ..Config import Config
 from ..core.managers import edit_delete, edit_or_reply
 
