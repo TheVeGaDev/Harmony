@@ -1,6 +1,6 @@
 import os
 from gtts import gTTS
-from Tepthon import zedub
+from Harmony import zedub
 from telethon import events
 from ..Config import Config
 
