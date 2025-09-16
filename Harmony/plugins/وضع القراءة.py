@@ -1,7 +1,7 @@
 #حقوق_سورس_الجوكر
 import asyncio
 from telethon import events
-from Tepthon import zedub
+from Harmony import zedub
 
 tep_enabled = False
 tepthon_enabled = False
