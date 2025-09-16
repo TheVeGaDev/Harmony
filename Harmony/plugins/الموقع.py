@@ -2,7 +2,7 @@
 from geopy.geocoders import Nominatim
 from telethon.tl import types
 
-from Tepthon import zedub
+from Harmony import zedub
 
 from ..core.managers import edit_or_reply
 from ..helpers import reply_id
