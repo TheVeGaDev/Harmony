@@ -26,7 +26,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageEntityMentionName
 
-from Tepthon import zedub
+from Harmony import zedub
 
 from ..Config import Config
 from ..core.managers import edit_delete, edit_or_reply
@@ -44,7 +44,7 @@ auth_url = r["auth_url"]
 
 
 ZelzalVP_cmd = (
-    "𓆩 [𝗦𝗼𝘂𝗿𝗰𝗲 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗖𝗼𝗻𝗳𝗶𝗴 𝗩𝗮𝗿𝘀 - اوامـر الفـارات](t.me/Tepthon) 𓆪\n\n"
+    "𓆩 [𝗦𝗼𝘂𝗿𝗰𝗲 𝗧𝗘𝗣𝗧𝗛𝗢𝗡 𝗖𝗼𝗻𝗳𝗶𝗴 𝗩𝗮𝗿𝘀 - اوامـر الفـارات](t.me/Harmony) 𓆪\n\n"
     "**✾╎قائـمه اوامـر تغييـر زخـارف البروفايـل + الاسـم الوقـتي بأمـر واحـد فقـط - حقـوق لـ التـاريـخ 🦾 :** \n\n"
     "⪼ `.وقتيه 1` / `.الوقتي 1`\n\n"
     "⪼ `.وقتيه 2` / `.الوقتي 2`\n\n"
@@ -63,8 +63,8 @@ ZelzalVP_cmd = (
     "⪼ `.وقتيه 15`\n\n"
     "⪼ `.وقتيه 16`\n\n"
     "⪼ `.وقتيه 17`\n\n\n"
-    "**✾╎لـ رؤيـة زغـارف البروفايـل الوقتـي ↶**  [⦇  اضـغـط هنــا  ⦈](t.me/Tepthone1) \n\n"
-    "**✾╎لـ رؤيـة زغـارف الاســم الوقتـي ↶**  [⦇  اضـغـط هنــا  ⦈](t.me/Tepthone1) \n\n\n"
+    "**✾╎لـ رؤيـة زغـارف البروفايـل الوقتـي ↶**  [⦇  اضـغـط هنــا  ⦈](t.me/Harmonye1) \n\n"
+    "**✾╎لـ رؤيـة زغـارف الاســم الوقتـي ↶**  [⦇  اضـغـط هنــا  ⦈](t.me/Harmonye1) \n\n\n"
     "🛃 سيتـم اضـافة المزيـد من الزغـارف بالتحديثـات الجـايـه\n\n"
     "\n𓆩 [𝙈𝙊𝙃𝘼𝙈𝙈𝘼𝘿](t.me/PPF22) 𓆪"
 )
@@ -78,7 +78,7 @@ async def variable(event):
     # All Rights Reserved for "@Zed-Thon" "زلـزال الهيبـه"
     if input_str == "1":
         variable = "DEFAULT_PIC"
-        zinfo = "Tepthon/helpers/styles/ZThon.ttf"
+        zinfo = "Harmony/helpers/styles/ZThon.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("DEFAULT_PIC") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة البروفـايل الوقـتي {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.البروفايل` **لـ بـدء البروفـايل الوقتـي . .**".format(input_str))
@@ -87,7 +87,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "2":
         variable = "DEFAULT_PIC"
-        zinfo = "Tepthon/helpers/styles/Starjedi.ttf"
+        zinfo = "Harmony/helpers/styles/Starjedi.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("DEFAULT_PIC") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة البروفـايل الوقـتي {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.البروفايل` **لـ بـدء البروفـايل الوقتـي . .**".format(input_str))
@@ -96,7 +96,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "3":
         variable = "DEFAULT_PIC"
-        zinfo = "Tepthon/helpers/styles/Papernotes.ttf"
+        zinfo = "Harmony/helpers/styles/Papernotes.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("DEFAULT_PIC") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة البروفـايل الوقـتي {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.البروفايل` **لـ بـدء البروفـايل الوقتـي . .**".format(input_str))
@@ -105,7 +105,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "4":
         variable = "DEFAULT_PIC"
-        zinfo = "Tepthon/helpers/styles/Terserah.ttf"
+        zinfo = "Harmony/helpers/styles/Terserah.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("DEFAULT_PIC") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة البروفـايل الوقـتي {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.البروفايل` **لـ بـدء البروفـايل الوقتـي . .**".format(input_str))
@@ -114,7 +114,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "5":
         variable = "DEFAULT_PIC"
-        zinfo = "Tepthon/helpers/styles/Photography Signature.ttf"
+        zinfo = "Harmony/helpers/styles/Photography Signature.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("DEFAULT_PIC") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة البروفـايل الوقـتي {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.البروفايل` **لـ بـدء البروفـايل الوقتـي . .**".format(input_str))
@@ -123,7 +123,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "6":
         variable = "DEFAULT_PIC"
-        zinfo = "Tepthon/helpers/styles/Austein.ttf"
+        zinfo = "Harmony/helpers/styles/Austein.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("DEFAULT_PIC") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة البروفـايل الوقـتي {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.البروفايل` **لـ بـدء البروفـايل الوقتـي . .**".format(input_str))
@@ -132,7 +132,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "7":
         variable = "DEFAULT_PIC"
-        zinfo = "Tepthon/helpers/styles/Dream MMA.ttf"
+        zinfo = "Harmony/helpers/styles/Dream MMA.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("DEFAULT_PIC") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة البروفـايل الوقـتي {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.البروفايل` **لـ بـدء البروفـايل الوقتـي . .**".format(input_str))
@@ -141,7 +141,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "8":
         variable = "DEFAULT_PIC"
-        zinfo = "Tepthon/helpers/styles/EASPORTS15.ttf"
+        zinfo = "Harmony/helpers/styles/EASPORTS15.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("DEFAULT_PIC") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة البروفـايل الوقـتي {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.البروفايل` **لـ بـدء البروفـايل الوقتـي . .**".format(input_str))
@@ -150,7 +150,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "9":
         variable = "DEFAULT_PIC"
-        zinfo = "Tepthon/helpers/styles/KGMissKindergarten.ttf"
+        zinfo = "Harmony/helpers/styles/KGMissKindergarten.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("DEFAULT_PIC") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة البروفـايل الوقـتي {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.البروفايل` **لـ بـدء البروفـايل الوقتـي . .**".format(input_str))
@@ -159,7 +159,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "10":
         variable = "DEFAULT_PIC"
-        zinfo = "Tepthon/helpers/styles/212 Orion Sans PERSONAL USE.ttf"
+        zinfo = "Harmony/helpers/styles/212 Orion Sans PERSONAL USE.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("DEFAULT_PIC") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة البروفـايل الوقـتي {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.البروفايل` **لـ بـدء البروفـايل الوقتـي . .**".format(input_str))
@@ -168,7 +168,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "11":
         variable = "DEFAULT_PIC"
-        zinfo = "Tepthon/helpers/styles/PEPSI_pl.ttf"
+        zinfo = "Harmony/helpers/styles/PEPSI_pl.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("DEFAULT_PIC") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة البروفـايل الوقـتي {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.البروفايل` **لـ بـدء البروفـايل الوقتـي . .**".format(input_str))
@@ -177,7 +177,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "12":
         variable = "DEFAULT_PIC"
-        zinfo = "Tepthon/helpers/styles/Paskowy.ttf"
+        zinfo = "Harmony/helpers/styles/Paskowy.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("DEFAULT_PIC") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة البروفـايل الوقـتي {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.البروفايل` **لـ بـدء البروفـايل الوقتـي . .**".format(input_str))
@@ -186,7 +186,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "13":
         variable = "DEFAULT_PIC"
-        zinfo = "Tepthon/helpers/styles/Cream Cake.otf"
+        zinfo = "Harmony/helpers/styles/Cream Cake.otf"
         await asyncio.sleep(1.5)
         if gvarstatus("DEFAULT_PIC") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة البروفـايل الوقـتي {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.البروفايل` **لـ بـدء البروفـايل الوقتـي . .**".format(input_str))
@@ -195,7 +195,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "14":
         variable = "DEFAULT_PIC"
-        zinfo = "Tepthon/helpers/styles/Hello Valentina.ttf"
+        zinfo = "Harmony/helpers/styles/Hello Valentina.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("DEFAULT_PIC") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة البروفـايل الوقـتي {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.البروفايل` **لـ بـدء البروفـايل الوقتـي . .**".format(input_str))
@@ -204,7 +204,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "15":
         variable = "DEFAULT_PIC"
-        zinfo = "Tepthon/helpers/styles/Alien-Encounters-Regular.ttf"
+        zinfo = "Harmony/helpers/styles/Alien-Encounters-Regular.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("DEFAULT_PIC") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة البروفـايل الوقـتي {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.البروفايل` **لـ بـدء البروفـايل الوقتـي . .**".format(input_str))
@@ -213,7 +213,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "16":
         variable = "DEFAULT_PIC"
-        zinfo = "Tepthon/helpers/styles/Linebeam.ttf"
+        zinfo = "Harmony/helpers/styles/Linebeam.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("DEFAULT_PIC") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة البروفـايل الوقـتي {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.البروفايل` **لـ بـدء البروفـايل الوقتـي . .**".format(input_str))
@@ -222,7 +222,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "17":
         variable = "DEFAULT_PIC"
-        zinfo = "Tepthon/helpers/styles/EASPORTS15.ttf"
+        zinfo = "Harmony/helpers/styles/EASPORTS15.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("DEFAULT_PIC") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة البروفـايل الوقـتي {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.البروفايل` **لـ بـدء البروفـايل الوقتـي . .**".format(input_str))
@@ -367,7 +367,7 @@ async def variable(event):
     # All Rights Reserved for "@Zed-Thon" "زلـزال الهيبـه"
     if input_str == "1":
         variable = "ZED_FONTS"
-        zinfo = "Tepthon/helpers/styles/ZThon.ttf"
+        zinfo = "Harmony/helpers/styles/ZThon.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("ZED_FONTS") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة خـط الحقـوق {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.حقوق` **+ كلمـه بالـرد ع (صوره-ملصق-متحركه-فيديو) . .**".format(input_str))
@@ -376,7 +376,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "2":
         variable = "ZED_FONTS"
-        zinfo = "Tepthon/helpers/styles/Starjedi.ttf"
+        zinfo = "Harmony/helpers/styles/Starjedi.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("ZED_FONTS") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة خـط الحقـوق {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.حقوق` **+ كلمـه بالـرد ع (صوره-ملصق-متحركه-فيديو) . .**".format(input_str))
@@ -385,7 +385,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "3":
         variable = "ZED_FONTS"
-        zinfo = "Tepthon/helpers/styles/Papernotes.ttf"
+        zinfo = "Harmony/helpers/styles/Papernotes.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("ZED_FONTS") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة خـط الحقـوق {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.حقوق` **+ كلمـه بالـرد ع (صوره-ملصق-متحركه-فيديو) . .**".format(input_str))
@@ -394,7 +394,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "4":
         variable = "ZED_FONTS"
-        zinfo = "Tepthon/helpers/styles/Terserah.ttf"
+        zinfo = "Harmony/helpers/styles/Terserah.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("ZED_FONTS") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة خـط الحقـوق {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.حقوق` **+ كلمـه بالـرد ع (صوره-ملصق-متحركه-فيديو) . .**".format(input_str))
@@ -403,7 +403,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "5":
         variable = "ZED_FONTS"
-        zinfo = "Tepthon/helpers/styles/Photography Signature.ttf"
+        zinfo = "Harmony/helpers/styles/Photography Signature.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("ZED_FONTS") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة خـط الحقـوق {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.حقوق` **+ كلمـه بالـرد ع (صوره-ملصق-متحركه-فيديو) . .**".format(input_str))
@@ -412,7 +412,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "6":
         variable = "ZED_FONTS"
-        zinfo = "Tepthon/helpers/styles/Austein.ttf"
+        zinfo = "Harmony/helpers/styles/Austein.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("ZED_FONTS") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة خـط الحقـوق {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.حقوق` **+ كلمـه بالـرد ع (صوره-ملصق-متحركه-فيديو) . .**".format(input_str))
@@ -421,7 +421,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "7":
         variable = "ZED_FONTS"
-        zinfo = "Tepthon/helpers/styles/Dream MMA.ttf"
+        zinfo = "Harmony/helpers/styles/Dream MMA.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("ZED_FONTS") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة خـط الحقـوق {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.حقوق` **+ كلمـه بالـرد ع (صوره-ملصق-متحركه-فيديو) . .**".format(input_str))
@@ -430,7 +430,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "8":
         variable = "ZED_FONTS"
-        zinfo = "Tepthon/helpers/styles/EASPORTS15.ttf"
+        zinfo = "Harmony/helpers/styles/EASPORTS15.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("ZED_FONTS") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة خـط الحقـوق {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.حقوق` **+ كلمـه بالـرد ع (صوره-ملصق-متحركه-فيديو) . .**".format(input_str))
@@ -439,7 +439,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "9":
         variable = "ZED_FONTS"
-        zinfo = "Tepthon/helpers/styles/KGMissKindergarten.ttf"
+        zinfo = "Harmony/helpers/styles/KGMissKindergarten.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("ZED_FONTS") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة خـط الحقـوق {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.حقوق` **+ كلمـه بالـرد ع (صوره-ملصق-متحركه-فيديو) . .**".format(input_str))
@@ -448,7 +448,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "10":
         variable = "ZED_FONTS"
-        zinfo = "Tepthon/helpers/styles/212 Orion Sans PERSONAL USE.ttf"
+        zinfo = "Harmony/helpers/styles/212 Orion Sans PERSONAL USE.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("ZED_FONTS") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة خـط الحقـوق {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.حقوق` **+ كلمـه بالـرد ع (صوره-ملصق-متحركه-فيديو) . .**".format(input_str))
@@ -457,7 +457,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "11":
         variable = "ZED_FONTS"
-        zinfo = "Tepthon/helpers/styles/PEPSI_pl.ttf"
+        zinfo = "Harmony/helpers/styles/PEPSI_pl.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("ZED_FONTS") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة خـط الحقـوق {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.حقوق` **+ كلمـه بالـرد ع (صوره-ملصق-متحركه-فيديو) . .**".format(input_str))
@@ -466,7 +466,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "12":
         variable = "ZED_FONTS"
-        zinfo = "Tepthon/helpers/styles/Paskowy.ttf"
+        zinfo = "Harmony/helpers/styles/Paskowy.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("ZED_FONTS") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة خـط الحقـوق {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.حقوق` **+ كلمـه بالـرد ع (صوره-ملصق-متحركه-فيديو) . .**".format(input_str))
@@ -475,7 +475,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "13":
         variable = "ZED_FONTS"
-        zinfo = "Tepthon/helpers/styles/Cream Cake.otf"
+        zinfo = "Harmony/helpers/styles/Cream Cake.otf"
         await asyncio.sleep(1.5)
         if gvarstatus("ZED_FONTS") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة خـط الحقـوق {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.حقوق` **+ كلمـه بالـرد ع (صوره-ملصق-متحركه-فيديو) . .**".format(input_str))
@@ -484,7 +484,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "14":
         variable = "ZED_FONTS"
-        zinfo = "Tepthon/helpers/styles/Hello Valentina.ttf"
+        zinfo = "Harmony/helpers/styles/Hello Valentina.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("ZED_FONTS") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة خـط الحقـوق {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.حقوق` **+ كلمـه بالـرد ع (صوره-ملصق-متحركه-فيديو) . .**".format(input_str))
@@ -493,7 +493,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "15":
         variable = "ZED_FONTS"
-        zinfo = "Tepthon/helpers/styles/Alien-Encounters-Regular.ttf"
+        zinfo = "Harmony/helpers/styles/Alien-Encounters-Regular.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("ZED_FONTS") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة خـط الحقـوق {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.حقوق` **+ كلمـه بالـرد ع (صوره-ملصق-متحركه-فيديو) . .**".format(input_str))
@@ -502,7 +502,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "16":
         variable = "ZED_FONTS"
-        zinfo = "Tepthon/helpers/styles/Linebeam.ttf"
+        zinfo = "Harmony/helpers/styles/Linebeam.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("ZED_FONTS") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة خـط الحقـوق {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.حقوق` **+ كلمـه بالـرد ع (صوره-ملصق-متحركه-فيديو) . .**".format(input_str))
@@ -511,7 +511,7 @@ async def variable(event):
         addgvar(variable, zinfo)
     elif input_str == "17":
         variable = "ZED_FONTS"
-        zinfo = "Tepthon/helpers/styles/EASPORTS15.ttf"
+        zinfo = "Harmony/helpers/styles/EASPORTS15.ttf"
         await asyncio.sleep(1.5)
         if gvarstatus("ZED_FONTS") is None:
             await zed.edit("**✾╎تم اضـافـة زغـرفـة خـط الحقـوق {} بنجـاح ☑️**\n\n**✾╎الان قـم بـ ارسـال الامـر ↶** `.حقوق` **+ كلمـه بالـرد ع (صوره-ملصق-متحركه-فيديو) . .**".format(input_str))
