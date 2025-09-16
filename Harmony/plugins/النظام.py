@@ -54,7 +54,7 @@ def get_size(inputbytes, suffix="B"):
 async def psu(event):
     "shows system specification"
     uname = platform.uname()
-    softw = "** 𓆩 𝑺𝑶𝑼𝑹𝑪𝑬 𝙕𝞝𝘿𝙏𝙃𝙊𝙉 𝑺𝒀𝑺𝑻𝑬𝑴 𝑰𝑵𝑭𝑶 𓆪 **\n"
+    softw = "** 𓆩 𝑺𝑶𝑼𝑹𝑪𝑬 𝗩𝗘𝗚𝗧𝗛𝗢𝗡 𝑺𝒀𝑺𝑻𝑬𝑴 𝑰𝑵𝑭𝑶 𓆪 **\n"
     softw += f"**⎉╎النظام : ** `{uname.system}`\n"
     softw += f"**⎉╎المرجع  : ** `{uname.release}`\n"
     softw += f"**⎉╎الاصدار  : ** `{uname.version}`\n"
@@ -472,7 +472,7 @@ async def _(event):
     stdout, stderr = await process.communicate()
     o = stdout.decode()
     OUTPUT = (
-        f"**[𝗦𝗢𝗨𝗥𝗖𝗘 𝙕𝞝𝘿](tg://need_update_for_some_feature/) - فـارات تنصيبـك هـي:**\n\n\n{o}"
+        f"**[𝗦𝗢𝗨𝗥𝗖𝗘 𝗩𝗘𝗚𝗧𝗛𝗢𝗡](tg://need_update_for_some_feature/) - فـارات تنصيبـك هـي:**\n\n\n{o}"
     )
     if len(OUTPUT) > Config.MAX_MESSAGE_SIZE_LIMIT:
         with io.BytesIO(str.encode(OUTPUT)) as out_file:
@@ -509,7 +509,7 @@ async def _(event):
     )
     stdout, stderr = await process.communicate()
     o = stdout.decode()
-    OUTPUT = f"**[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝙕𝞝𝘿](tg://need_update_for_some_feature/) - سرعـة السيرفـر**\n**- تم حسـاب سرعـة سيرفـر البـوت الخـاص بك :**\n\n{o}"
+    OUTPUT = f"**[ᯓ 𝗦𝗢𝗨𝗥𝗖𝗘 𝗩𝗘𝗚𝗧𝗛𝗢𝗡](tg://need_update_for_some_feature/) - سرعـة السيرفـر**\n**- تم حسـاب سرعـة سيرفـر البـوت الخـاص بك :**\n\n{o}"
     if len(OUTPUT) > Config.MAX_MESSAGE_SIZE_LIMIT:
         with io.BytesIO(str.encode(OUTPUT)) as out_file:
             out_file.name = "env.text"
@@ -529,7 +529,7 @@ async def _(event):
 @zedub.zed_cmd(pattern="تاريخ التنصيب$")
 async def zeddd(event): # Code By T.me/zzzzl1l
     uname = platform.uname()
-    zedt = "**- تاريخ تنصيبـك لـ بـوت زدثـــون - 𓆩𝙎𝙊𝙐𝙍𝘾𝞝 𝙕𝞝𝘿𓆪**\n\n"
+    zedt = "**- تاريخ تنصيبـك لـ بـوت زدثـــون - 𓆩𝙎𝙊𝙐𝙍𝘾𝞝 𝗩𝗘𝗚𝗧𝗛𝗢𝗡𓆪**\n\n"
     if gvarstatus("z_date") is not None: # Code By T.me/zzzzl1l
         zzd = gvarstatus("z_date")
         zzt = gvarstatus("z_time")
