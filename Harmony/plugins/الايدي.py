@@ -1,7 +1,7 @@
 from telethon.utils import pack_bot_file_id
 
-from Tepthon import zedub
-from Tepthon.core.logger import logging
+from Harmony import zedub
+from Harmony.core.logger import logging
 from ..helpers.utils import _format, get_user_from_event
 from ..core.managers import edit_delete, edit_or_reply
 
