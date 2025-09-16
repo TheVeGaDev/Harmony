@@ -1,7 +1,7 @@
 import asyncio
 import random
 from telethon import events
-from Tepthon import zedub
+from Harmony import zedub
 from ..Config import Config
 
 plugin_category = "الأذكار"
