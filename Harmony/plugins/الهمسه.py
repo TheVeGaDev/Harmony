@@ -1,7 +1,7 @@
 from telethon import events
 from asyncio import sleep
 import os, sys, random, re
-from Tepthon import zedub
+from Harmony import zedub
 from ..core.managers import edit_delete, edit_or_reply
  
 
