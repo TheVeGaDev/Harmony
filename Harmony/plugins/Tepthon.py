@@ -26,7 +26,7 @@ from youtubesearchpython import VideosSearch
 
 
 
-from Tepthon import zedub
+from Harmony import zedub
 
 
 
@@ -330,7 +330,7 @@ async def inline_handler(event):  # sourcery no-metrics
 
             (
 
-                Button.url("قنـاة السـورس", "https://t.me/Tepthon"),
+                Button.url("قنـاة السـورس", "https://t.me/Harmony"),
 
                 Button.url(
 
@@ -368,7 +368,7 @@ async def inline_handler(event):  # sourcery no-metrics
 
             description="روابـط التنصـيب",
 
-            url="https://t.me/Tepthon/114",
+            url="https://t.me/Harmony/114",
 
             thumb=photo,
 
