@@ -1,6 +1,6 @@
 #بسم الله الرحمن الرحيم
 from telethon import events
-from Tepthon import zedub
+from Harmony import zedub
 from ..sql_helper.globals import addgvar, delgvar, gvarstatus
 from ..core.managers import edit_delete
 from telethon import functions
