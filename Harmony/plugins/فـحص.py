@@ -1,5 +1,5 @@
 from telethon.errors.rpcerrorlist import MediaEmptyError
-from Tepthon import zedub
+from Harmony import zedub
 
 vocSelf = True
 
