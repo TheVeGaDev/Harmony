@@ -17,7 +17,7 @@ from telethon.errors import PhotoInvalidDimensionsError
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 from telethon.tl.functions.messages import SendMediaRequest
 
-from Tepthon import zedub
+from Harmony import zedub
 
 from ..Config import Config
 from ..core.logger import logging
