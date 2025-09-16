@@ -9,7 +9,7 @@ from telethon.tl.functions.channels import JoinChannelRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
 from telethon.tl.functions.users import GetFullUserRequest
 
-from Tepthon import zedub
+from Harmony import zedub
 from ..Config import Config
 from ..core.managers import edit_delete, edit_or_reply
 from ..sql_helper.globals import addgvar, delgvar, gvarstatus
@@ -20,7 +20,7 @@ thifts = False
 bahsees = False
 
 ZelzalCoins_cmd = (
-    "[ᯓ 𝗦𝗼𝘂𝗿𝗰𝗲 𝗧𝗲𝗽𝘁𝗵𝗼𝗻 - أوامـر تجميـع النقـاط](t.me/Tepthon) 𓆪\n\n"
+    "[ᯓ 𝗦𝗼𝘂𝗿𝗰𝗲 𝗩𝗘𝗚𝗧𝗛𝗢𝗡 - أوامـر تجميـع النقـاط](t.me/Harmony) 𓆪\n\n"
     "**⎉╎قـائمـة أوامـر تجميـع نقـاط بوتـات تمـويـل الخاص بسـورس تيبثـون🦾 :** \n\n"
     "`.المليار`\n"
     "**⪼ لـ تجميـع النقـاط مـن بـوت المليـار ( @EEOBot ) .. تلقـائيًّـا ✓**\n\n"
