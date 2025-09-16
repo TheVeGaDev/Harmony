@@ -3,7 +3,7 @@ from asyncio import sleep
 from telethon import events
 from telethon.utils import get_display_name
 
-from Tepthon import zedub
+from Harmony import zedub
 
 from ..core.managers import edit_or_reply
 from ..sql_helper import pmpermit_sql as pmpermit_sql
